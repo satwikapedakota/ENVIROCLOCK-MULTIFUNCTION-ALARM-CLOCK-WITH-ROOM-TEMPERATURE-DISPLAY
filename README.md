@@ -9,13 +9,13 @@ This project demonstrates practical implementation of RTC, ADC, GPIO, keypad int
 
 
 Key Features:
-Real-time clock with date and day display using on-chip RTC
-Room temperature measurement using LM35 sensor via ADC
-Configurable alarm with buzzer notification
-Interrupt-driven menu for editing RTC and alarm settings
-Keypad-based user interaction with input validation
-Alarm stop after we click the switch
-Continuous real-time monitoring and display on LCD
+Real-time clock with date and day display using on-chip RTC,
+Room temperature measurement using LM35 sensor via ADC,
+Configurable alarm with buzzer notification,
+Interrupt-driven menu for editing RTC and alarm settings,
+Keypad-based user interaction with input validation,
+Alarm stop after we click the switch,
+Continuous real-time monitoring and display on LCD.
 
 System Architecture:
 The system follows a super-loop embedded architecture:
@@ -26,29 +26,29 @@ Trigger buzzer when alarm time matches RTC.
 External interrupt opens configuration menu for user input.
 
 Hardware Components:
-LPC2148 ARM7 Microcontroller
-16x2 LCD Display
-Matrix Keypad
-LM35 Temperature Sensor
-Buzzer
-LEDs & Switches
+LPC2148 ARM7 Microcontroller,
+16x2 LCD Display,
+Matrix Keypad,
+LM35 Temperature Sensor,
+Buzzer,
+LEDs & Switches.
 
 
 Software & Tools:
-Embedded C
-Keil µVision IDE
-Flash Magic Programmer
+Embedded C,
+Keil µVision IDE,
+Flash Magic Programmer.
 
 Technical Highlights:
-Direct register-level programming (GPIO, RTC, ADC)
-Interrupt-based user interface design
-Sensor calibration and ADC data conversion
-Input validation and menu navigation logic
-Real-time embedded debugging and testing
+Direct register-level programming (GPIO, RTC, ADC),
+Interrupt-based user interface design,
+Sensor calibration and ADC data conversion,
+Input validation and menu navigation logic,
+Real-time embedded debugging and testing.
 
 
 Author:
 
-Satwika Pedakota
+Satwika Pedakota,
 
 Aspiring Embedded Systems Engineer.
